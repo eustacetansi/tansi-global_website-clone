@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*body section*/
+body {
+    font-family: arial;
+    margin: auto;
+}
+
+/*header path*/
+header {
+    font-size: 20px;
+    height: 90px;
+    color: dimgray;
+    border-bottom:blue 3px solid;
+}
+
+.HeadArea h1 span{
+    color:blue;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: dimgray;
+}
+
+ .HeadArea {
+     float: left;
+     margin-top: 11px;
+     margin-bottom: 0;
+}
+
+
+ .HeadArea h1{
+     padding-left: 30px;
+     padding-bottom: 0;
+ }
+
+ nav{
+     padding-left: 30px;
+ }
+
+ /*first section with background image*/
+ #firstSection{
+     background: url(../img/welcome.JPG);
+     height: 400px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ #welcome{
+     text-align: center;
+     font-size: 35px;
+     color:blue;
+     padding: 15px;
+ }
+
+ button{
+     background-color: green;
+     border: none;
+     padding:15px;
+     border-radius: 10px;
+ }
+
+ button a{
+     color: white;
+     padding: 15px;
+     font-size: 20px;
+     text-decoration: none;
+ }
+
+ /*second section where i worked on the boxes*/
+ #boxes img{
+     width: 100px;
+     border-radius: 30px;
+     padding-top: 20px;
+ }
+
+ #boxes{
+     height: 400px;
+     font-size: 15px;
+     margin: 50px;
+     background-color: bisque;
+     border: 1px solid blue;
+ }
+.upload{
+     width: 15%;
+     float: left;
+     margin: 10px;
+     margin-right: 2px;
+     text-align: center;
+     color: blue;
+ }
+
+ /*section where i wrote abour why choose us*/
+ #why{
+     font-size: 20px;
+     height: 350px;
+     border-bottom: solid 1px blue;
+ }
+
+ #choose h1 span{
+     color: blue;
+ }
+
+ #choose h1{
+     padding-bottom: 20px;
+ }
+
+ #choose .edit{
+     text-align: center;
+     margin: 20px;
+     padding-bottom: 20px;
+ }
+
+ #why .us{
+     width: 40%;
+     float: left;
+     padding-left: 20px;
+     color: blue;
+ }
+
+ #why .us h1{
+     background-color: blue;
+     color: white;
+    height: 100px;
+}
+
+/*work on the table part*/
+caption{
+    color: darkorange;
+}
+
+#table{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+thead{
+    color: red;
+}
+
+th.select{
+    background: darkorange;
+}
+
+footer{
+    background-color: dimgray;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin:auto ;
+    font-family: arial;
+    font-size: 20px;
+    text-align: ;
+    background-color: blue;
+    
+}
+
+#login{
+    background-color: white;
+    width: 300px;
+    padding: 70px;
+    margin: auto;
+}
+
+/*#login{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: 0 auto;*/
+}*/
+
+h1{
+    margin-top: px;
+    padding-left: 500px;
+}
+
+button{
+    font-size: 20px;
+    width: 145px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-color: darkslategrey 1px;
+}
+
+input{
+    width: 290px;
+    height: 40px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+label{
+    font-size: 15px;
+}
+
+#signup a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#signup{
+    width: 290px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: red;
+}
+
+#signup a:hover{
+    color: blue;
+    background-color: red;
+}
+
+#reg{
+    background-color: white;
+    color: black;
+}
+#reg:hover{
+    color: blue;
+    background-color: red;   
+}
